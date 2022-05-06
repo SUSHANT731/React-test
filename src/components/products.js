@@ -1,0 +1,42 @@
+export const products = [
+  {
+    id: 1,
+    title: "Sam",
+    description: "lorem ipsum dolor sit",
+    price: "25",
+    img: "https://s6.postimg.cc/7hp9aaw1t/carrot.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    quantity: 1,
+  },
+  {
+    id: 2,
+    title: "Tomato",
+    description: "lorem ipsum dolor sit",
+    price: "20",
+    img: "https://s6.postimg.cc/hk41d1ayp/cauliflower.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    quantity: 1,
+  },
+  {
+    id: 3,
+    title: "Carrot",
+    description: "lorem ipsum dolor sit",
+    price: "20",
+    img: "https://s6.postimg.cc/3p5qukgjl/cucumber.jpg",
+    quantity: 1,
+  },
+  {
+    id: 4,
+    title: "Cauliflower",
+    description: "lorem ipsum dolor sit",
+    price: "25",
+    img: "https://s6.postimg.cc/ht1m2ynr5/potato.jpg",
+    quantity: 1,
+  },
+  {
+    id: 5,
+    title: "Cucumber",
+    description: "lorem ipsum dolor sit",
+    price: "20",
+    img: "https://s6.postimg.cc/hubjwdpkx/tomato.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    quantity: 1,
+  },
+];

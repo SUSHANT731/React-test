@@ -1,0 +1,41 @@
+Q1
+function nextBiggest(arr) {
+  let max = -Infinity, value = -Infinity;
+
+  for (const value of arr) {
+    const num = Number(value)
+
+    if (num > max) {
+      [result, max] = [max, num] 
+    } else if (num < max && num > result) {
+      result = num;
+    }
+  }
+
+  return result;
+}
+
+const arr = ['20','120','111','215','54','78'];
+console.log(nextBiggest(arr));
+
+Q2
+function isBricksPossible(n)
+{
+    if(n%2==0 || n%5==0 || n%7==0)
+    {
+      return "YES";
+    }
+    else
+    return "NO";
+}
+console.log(isBrickPossible(n));
+
+Q3.
+
+func(n)
+{
+ if(n<3) return 0;
+ return (n/3)+func(n/3+n%3);
+}
+let ans=3*n+func(n/3);
+console.log(ans);
